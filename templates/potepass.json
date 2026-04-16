@@ -2,30 +2,78 @@
   "users": [
     {
       "id": 1,
-      "userName": "Ola Nordmann",
+      "userName": "Knut Halvorsen",
       "password": "abc123",
-      "email": "ola@example.com",
-      "description": "Trenger hundepass i helger og ferier",
+      "email": "knut@example.com",
       "dogs": [
         {
-          "id": 1,
-          "name": "Bella",
-          "breed": "Golden Retriever",
-          "age": 4,
-          "allergies": ["kylling"]
-        },
-        {
-          "id": 2,
+          "id": 102,
           "name": "Max",
+          "weight": 27,
+          "age": 6,
           "breed": "Labrador",
-          "age": 2,
-          "allergies": []
+          "allergies":"Ingen",
+          "gender":"Her",
+          "image": ""
         }
       ],
+      "description": "Trenger hundepass i helger og ferier",
       "created": "2025-09-01T10:30:00",
       "updated": "2025-09-10T14:20:00"
-    }
-  ],
+    },
+    {
+      "id": 2,
+      "userName": "Sondre Larsen",
+      "password": "luftetur",
+      "email": "sonlar@example.com",
+      "dogs": [
+        {
+          "id": 103,
+          "name": "Harley",
+          "weight": 15,
+          "age": 4,
+          "breed": "Engelsk staff",
+          "allergies":"Hvete",
+          "gender":"Him",
+          "image": "https://www.nkk.no/getfile.php/136684-1486108244/bilder/rasebilder/staffordshire-bull-terrier/staffordshire-bull-terrier-vibeke-brath-liten-jpg-optimized-original.jpg"
+        }
+        ],
+      "description": "Trenger hundepass en dag i uka",
+      "created": "2025-09-01T10:30:00",
+      "updated": "2025-09-10T14:20:00" 
+    },
+   { 
+    "id": 3,
+      "userName": "Jan Johansen",
+      "password": "hund123",
+      "email": "janjohansen@example.com",
+      "dogs": [
+        {
+          "id": 104,
+          "name": "Mira",
+          "weight": 42,
+          "age": 9,
+          "breed": "Irsk ulvehund",
+          "allergies":"Epler",
+          "gender":"Her",
+          "image": "https://vetgruppen.dk/wp-content/themes/yootheme/cache/bb/irsk-ulvehund-hunderace-bb1ff7d7.jpeg"
+        }
+      ,
+      {
+          "id": 105,
+          "name": "Bella",
+          "weight": 19,
+          "age": 4,
+          "breed": "Cockerspaniel",
+          "allergies":"Fjærkre",
+          "gender":"Her",
+          "image": "https://pcdn.bellfordev.pro/image/cache/catalog/Blog/Blog-Pictures/cocker-spaniel-w690-h690.jpg"
+      }
+      ],
+        "description": "Trenger hundepass en uke i måneden",
+      "created": "2025-09-01T10:30:00",
+      "updated": "2025-09-10T14:20:00" }
+    ],
   "petSitters": [
     {
       "id": 1,
@@ -41,91 +89,6 @@
       "experienceDescription": "Erfaring med valper, seniorhunder og lange turer",
       "available": true,
       "created": "2025-09-02T09:00:00",
-      "updated": "2025-09-12T16:45:00"
-    },
-    {
-      "id": 2,
-      "name": "Mari",
-      "location": "Oslo, 0674",
-      "pricePerDay": 520,
-      "rating": 4.8,
-      "reviewCount": 22,
-      "maxDogs": 2,
-      "acceptsPuppies": true,
-      "acceptsLargeDogs": true,
-      "yearsOfExperience": 5,
-      "experienceDescription": "Aktiv passer som elsker lange turer. Passer både valper og voksne hunder.",
-      "available": true,
-      "image": "assets/dogsitter3.png",
-      "created": "2025-09-03T09:00:00",
-      "updated": "2025-09-12T16:45:00"
-    },
-    {
-      "id": 3,
-      "name": "Elias",
-      "location": "Bærum, 1340",
-      "pricePerDay": 390,
-      "rating": 5.0,
-      "reviewCount": 7,
-      "maxDogs": 1,
-      "acceptsPuppies": false,
-      "acceptsLargeDogs": true,
-      "yearsOfExperience": 3,
-      "experienceDescription": "Perfekt for hunder som trenger selskap på dagtid. Kort vei til skog og mark.",
-      "available": true,
-      "image": "assets/dogsitter2.png",
-      "created": "2025-09-04T09:00:00",
-      "updated": "2025-09-12T16:45:00"
-    },
-    {
-      "id": 4,
-      "name": "Sofie",
-      "location": "Majorstuen, 0366",
-      "pricePerDay": 480,
-      "rating": 4.7,
-      "reviewCount": 15,
-      "maxDogs": 2,
-      "acceptsPuppies": true,
-      "acceptsLargeDogs": false,
-      "yearsOfExperience": 4,
-      "experienceDescription": "Trygg og omsorgsfull passer med erfaring fra små og mellomstore hunder. Sender gjerne oppdateringer og bilder.",
-      "available": true,
-      "image": "assets/dogsitter1.png",
-      "created": "2025-09-05T10:00:00",
-      "updated": "2025-09-12T16:45:00"
-    },
-    {
-      "id": 5,
-      "name": "Jonas",
-      "location": "Lillestrøm",
-      "pricePerDay": 350,
-      "rating": 4.4,
-      "reviewCount": 9,
-      "maxDogs": 1,
-      "acceptsPuppies": false,
-      "acceptsLargeDogs": true,
-      "yearsOfExperience": 2,
-      "experienceDescription": "Rolig hundepasser som passer godt for større hunder og hunder som trenger faste rutiner.",
-      "available": false,
-      "image": "assets/dogsitter2.png",
-      "created": "2025-09-06T11:30:00",
-      "updated": "2025-09-12T16:45:00"
-    },
-    {
-      "id": 6,
-      "name": "Amalie",
-      "location": "Sandvika, Bærum",
-      "pricePerDay": 560,
-      "rating": 4.9,
-      "reviewCount": 28,
-      "maxDogs": 2,
-      "acceptsPuppies": true,
-      "acceptsLargeDogs": true,
-      "yearsOfExperience": 6,
-      "experienceDescription": "Erfaren og aktiv passer som liker lange turer i skog og mark. God med både valper og energiske hunder.",
-      "available": true,
-      "image": "assets/dogsitter3.png",
-      "created": "2025-09-07T08:45:00",
       "updated": "2025-09-12T16:45:00"
     }
   ],
