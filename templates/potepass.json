@@ -12,9 +12,10 @@
           "weight": 27,
           "age": 6,
           "breed": "Labrador",
-          "allergies":"Ingen",
-          "gender":"Her",
-          "image": ""
+          "allergies": [
+            "Egg"
+          ],
+          "gender":"Her"
         }
       ],
       "description": "Trenger hundepass i helger og ferier",
@@ -33,9 +34,10 @@
           "weight": 15,
           "age": 4,
           "breed": "Engelsk staff",
-          "allergies":"Hvete",
-          "gender":"Him",
-          "image": "https://www.nkk.no/getfile.php/136684-1486108244/bilder/rasebilder/staffordshire-bull-terrier/staffordshire-bull-terrier-vibeke-brath-liten-jpg-optimized-original.jpg"
+          "allergies":[
+            "Hvete"
+          ],
+          "gender":"Him"
         }
         ],
       "description": "Trenger hundepass en dag i uka",
@@ -54,9 +56,9 @@
           "weight": 42,
           "age": 9,
           "breed": "Irsk ulvehund",
-          "allergies":"Epler",
-          "gender":"Her",
-          "image": "https://vetgruppen.dk/wp-content/themes/yootheme/cache/bb/irsk-ulvehund-hunderace-bb1ff7d7.jpeg"
+          "allergies": [ 
+            "Melk"  ],
+          "gender":"Her"
         }
       ,
       {
@@ -65,9 +67,10 @@
           "weight": 19,
           "age": 4,
           "breed": "Cockerspaniel",
-          "allergies":"Fjærkre",
-          "gender":"Her",
-          "image": "https://pcdn.bellfordev.pro/image/cache/catalog/Blog/Blog-Pictures/cocker-spaniel-w690-h690.jpg"
+          "allergies": [
+            ""
+      ],
+          "gender":"Her"
       }
       ],
         "description": "Trenger hundepass en uke i måneden",
