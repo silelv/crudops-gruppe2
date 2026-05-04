@@ -2,30 +2,81 @@
   "users": [
     {
       "id": 1,
-      "userName": "Ola Nordmann",
+      "userName": "Knut Halvorsen",
       "password": "abc123",
-      "email": "ola@example.com",
-      "description": "Trenger hundepass i helger og ferier",
+      "email": "knut@example.com",
       "dogs": [
         {
           "id": 1,
-          "name": "Bella",
-          "breed": "Golden Retriever",
-          "age": 4,
-          "allergies": ["kylling"]
-        },
-        {
-          "id": 2,
           "name": "Max",
+          "weight": 27,
+          "age": 6,
           "breed": "Labrador",
-          "age": 2,
-          "allergies": []
+          "allergies": [
+            "Egg"
+          ],
+          "gender":"Her"
         }
       ],
+      "description": "Trenger hundepass i helger og ferier",
       "created": "2025-09-01T10:30:00",
       "updated": "2025-09-10T14:20:00"
-    }
-  ],
+    },
+    {
+      "id": 2,
+      "userName": "Sondre Larsen",
+      "password": "luftetur",
+      "email": "sonlar@example.com",
+      "dogs": [
+        {
+          "id": 2,
+          "name": "Harley",
+          "weight": 15,
+          "age": 4,
+          "breed": "Engelsk staff",
+          "allergies":[
+            "Hvete"
+          ],
+          "gender":"Him"
+        }
+        ],
+      "description": "Trenger hundepass en dag i uka",
+      "created": "2025-09-01T10:30:00",
+      "updated": "2025-09-10T14:20:00" 
+    },
+   { 
+    "id": 3,
+      "userName": "Jan Johansen",
+      "password": "hund123",
+      "email": "janjohansen@example.com",
+      "dogs": [
+        {
+          "id": 3,
+          "name": "Mira",
+          "weight": 42,
+          "age": 9,
+          "breed": "Irsk ulvehund",
+          "allergies": [ 
+            "Melk"  ],
+          "gender":"Her"
+        }
+      ,
+      {
+          "id": 4,
+          "name": "Bella",
+          "weight": 19,
+          "age": 4,
+          "breed": "Cockerspaniel",
+          "allergies": [
+            ""
+      ],
+          "gender":"Her"
+      }
+      ],
+        "description": "Trenger hundepass en uke i måneden",
+      "created": "2025-09-01T10:30:00",
+      "updated": "2025-09-10T14:20:00" }
+    ],
   "petSitters": [
     {
       "id": 1,
