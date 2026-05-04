@@ -7,7 +7,7 @@
       "email": "knut@example.com",
       "dogs": [
         {
-          "id": 102,
+          "id": 1,
           "name": "Max",
           "weight": 27,
           "age": 6,
@@ -29,7 +29,7 @@
       "email": "sonlar@example.com",
       "dogs": [
         {
-          "id": 103,
+          "id": 2,
           "name": "Harley",
           "weight": 15,
           "age": 4,
@@ -51,7 +51,7 @@
       "email": "janjohansen@example.com",
       "dogs": [
         {
-          "id": 104,
+          "id": 3,
           "name": "Mira",
           "weight": 42,
           "age": 9,
@@ -62,7 +62,7 @@
         }
       ,
       {
-          "id": 105,
+          "id": 4,
           "name": "Bella",
           "weight": 19,
           "age": 4,
