@@ -30,7 +30,7 @@
     {
       "id": 1,
       "name": "Kari Hansen",
-      "location": "Oslo",
+      "location": "Oslo, 0150",
       "pricePerDay": 400,
       "rating": 4.6,
       "reviewCount": 12,
@@ -97,7 +97,7 @@
     {
       "id": 5,
       "name": "Jonas",
-      "location": "Lillestrøm",
+      "location": "Lillestrøm, 2000",
       "pricePerDay": 350,
       "rating": 4.4,
       "reviewCount": 9,
