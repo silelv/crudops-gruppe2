@@ -185,6 +185,42 @@
       "message": "Hei! Max er snill og vant til andre hunder. Ingen allergier.",
       "created": "2025-12-30T12:15:00",
       "updated": "2025-12-30T12:15:00"
+    },
+    {
+      "id": 102,
+      "userId": 2,
+      "userDogId": 2,
+      "petSitterId": 3,
+      "fromDate": "2026-02-14",
+      "toDate": "2026-02-16",
+      "status": "confirmed",
+      "message": "Harley elsker lange turer og er veldig sosial.",
+      "created": "2026-01-10T09:00:00",
+      "updated": "2026-01-10T09:00:00"
+    },
+    {
+      "id": 103,
+      "userId": 3,
+      "userDogId": 3,
+      "petSitterId": 6,
+      "fromDate": "2026-03-01",
+      "toDate": "2026-03-07",
+      "status": "completed",
+      "message": "Mira trenger rolige omgivelser.",
+      "created": "2026-02-15T11:30:00",
+      "updated": "2026-02-15T11:30:00"
+    },
+    {
+      "id": 104,
+      "userId": 3,
+      "userDogId": 4,
+      "petSitterId": 2,
+      "fromDate": "2026-04-10",
+      "toDate": "2026-04-12",
+      "status": "cancelled",
+      "message": "Bella er veldig enkel å passe.",
+      "created": "2026-03-20T14:45:00",
+      "updated": "2026-03-21T10:00:00"
     }
   ]
 }
