@@ -12,10 +12,8 @@
           "weight": 27,
           "age": 6,
           "breed": "Labrador",
-          "allergies": [
-            "Egg"
-          ],
-          "gender":"Her"
+          "allergies": ["Egg"],
+          "gender": "Her"
         }
       ],
       "description": "Trenger hundepass i helger og ferier",
@@ -34,18 +32,16 @@
           "weight": 15,
           "age": 4,
           "breed": "Engelsk staff",
-          "allergies":[
-            "Hvete"
-          ],
-          "gender":"Him"
+          "allergies": ["Hvete"],
+          "gender": "Him"
         }
-        ],
+      ],
       "description": "Trenger hundepass en dag i uka",
       "created": "2025-09-01T10:30:00",
-      "updated": "2025-09-10T14:20:00" 
+      "updated": "2025-09-10T14:20:00"
     },
-   { 
-    "id": 3,
+    {
+      "id": 3,
       "userName": "Jan Johansen",
       "password": "hund123",
       "email": "janjohansen@example.com",
@@ -56,27 +52,24 @@
           "weight": 42,
           "age": 9,
           "breed": "Irsk ulvehund",
-          "allergies": [ 
-            "Melk"  ],
-          "gender":"Her"
-        }
-      ,
-      {
+          "allergies": ["Melk"],
+          "gender": "Her"
+        },
+        {
           "id": 4,
           "name": "Bella",
           "weight": 19,
           "age": 4,
           "breed": "Cockerspaniel",
-          "allergies": [
-            ""
+          "allergies": [""],
+          "gender": "Her"
+        }
       ],
-          "gender":"Her"
-      }
-      ],
-        "description": "Trenger hundepass en uke i måneden",
+      "description": "Trenger hundepass en uke i måneden",
       "created": "2025-09-01T10:30:00",
-      "updated": "2025-09-10T14:20:00" }
-    ],
+      "updated": "2025-09-10T14:20:00"
+    }
+  ],
   "petSitters": [
     {
       "id": 1,
@@ -192,6 +185,67 @@
       "message": "Hei! Max er snill og vant til andre hunder. Ingen allergier.",
       "created": "2025-12-30T12:15:00",
       "updated": "2025-12-30T12:15:00"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "topic": "generelt spørsmål",
+      "user_id": 1,
+      "message": "hei hvordan går det?",
+      "updated": "2026-05-11T09:48:37.116Z"
+    },
+    {
+      "id": 2,
+      "topic": "generelt spørsmål",
+      "user_id": 2,
+      "message": "nytt spørsmål",
+      "updated": "2026-05-14T11:42:52.291Z"
+    },
+    {
+      "id": 3,
+      "topic": "booking spørsmål",
+      "user_id": 1,
+      "message": "Er det mulig å booke for flere hunder samtidig?",
+      "updated": "2026-05-08T11:05:51.477Z"
+    },
+    {
+      "id": 4,
+      "topic": "booking spørsmål",
+      "user_id": 1,
+      "message": "Hva er avbestillingsreglene?"
+    },
+    {
+      "topic": "other",
+      "user_id": 3,
+      "message": "Hvordan kan jeg trene hunden min til å ta ut søpla?",
+      "created": "2026-05-14T11:03:08.372Z",
+      "updated": "2026-05-14T11:03:08.372Z",
+      "id": 6
+    },
+    {
+      "topic": "account",
+      "user_id": 1,
+      "message": "test test",
+      "created": "2026-05-14T11:03:29.851Z",
+      "updated": "2026-05-15T07:22:05.649Z",
+      "id": 7
+    },
+    {
+      "topic": "payment",
+      "user_id": 1,
+      "message": "Hvordan bruker jeg vipps på siden?",
+      "created": "2026-05-14T12:27:05.082Z",
+      "updated": "2026-05-14T12:27:05.082Z",
+      "id": 8
+    },
+    {
+      "topic": "booking",
+      "user_id": 1,
+      "message": "Hvordan... uhh.. bestiller jeg?",
+      "created": "2026-05-14T12:27:36.478Z",
+      "updated": "2026-05-14T12:27:36.478Z",
+      "id": 9
     }
   ]
 }
