@@ -5,6 +5,14 @@
       "userName": "Knut Halvorsen",
       "password": "abc123",
       "email": "knut@example.com",
+      "contacts": [ 
+        { 
+        "id": 1, 
+        "type": "phone", 
+        "value": "+47 900 00 000", 
+        "label": "Mobil" 
+        } 
+      ],
       "dogs": [
         {
           "id": 1,
@@ -25,6 +33,14 @@
       "userName": "Sondre Larsen",
       "password": "luftetur",
       "email": "sonlar@example.com",
+      "contacts": [ 
+        {
+        "id": 2, 
+        "type": "phone", 
+        "value": "+47 815 49 300", 
+        "label": "Mobil" 
+        } 
+      ],
       "dogs": [
         {
           "id": 2,
@@ -45,6 +61,14 @@
       "userName": "Jan Johansen",
       "password": "hund123",
       "email": "janjohansen@example.com",
+      "contacts": [ 
+        {
+        "id": 3, 
+        "type": "phone", 
+        "value": "+47 911 00 911", 
+        "label": "Mobil" 
+        } 
+      ],
       "dogs": [
         {
           "id": 3,
